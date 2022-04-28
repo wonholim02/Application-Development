@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MobileSanitizer</string>
+    <string name="Air">Air</string>
+    <string name="Food">Food</string>
+    <string name="Weather">Weather</string>
+    <string name="Exercise">Exercise</string>
+    <string name="Virus">Virus</string>
+    <string name="Hospital">Hospital</string>
+    <string name="nature">Nature</string>
+    <string name="Tips">Tips</string>
+    <string name="Inside">Inside</string>
+    <string name="Outside">Outside</string>
+    <string name="NewYorkTimes"><a href="https://www.nytimes.com/2020/03/29/world/coronavirus-news.html">NewYorkTimes</a></string>
+</resources>
