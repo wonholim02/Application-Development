@@ -1,0 +1,283 @@
+<html>
+<head>
+<title>activity_useful_info.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #6a8759;}
+.s3 { color: #a9b7c6;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_useful_info.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;RelativeLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">tools:context</span><span class="s2">=&quot;.UsefulInfo&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;com.google.android.material.bottomnavigation.BottomNavigationView</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">app:itemTextColor</span><span class="s2">=&quot;#303030&quot;</span>
+        <span class="s1">android:id </span><span class="s2">= &quot;@+id/bottom_navigator&quot;</span>
+        <span class="s1">app:menu </span><span class="s2">= &quot;@menu/menu&quot;</span>
+        <span class="s1">app:labelVisibilityMode</span><span class="s2">=&quot;labeled&quot;</span>
+        <span class="s1">android:layout_alignParentBottom</span><span class="s2">=&quot;true&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;50sp&quot;</span><span class="s0">/&gt;</span>
+    <span class="s0">&lt;ScrollView</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;50sp&quot;</span><span class="s0">&gt;</span>
+
+        <span class="s0">&lt;LinearLayout</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#0F9D58&quot;</span>
+            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView13&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;50sp&quot;</span>
+                <span class="s1">android:background</span><span class="s2">=&quot;#0F9D58&quot;</span>
+                <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Useful Information&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#FFFFFF&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;22sp&quot;</span>
+                <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;ImageView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageView&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;200sp&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/info_page&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView12&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Websites&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;32sp&quot;</span>
+                <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;30px&quot;</span>
+                <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;LinkedIn&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#3F51B5&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+                <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;Button</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/button2&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;100dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;10px&quot;</span>
+                <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;100dp&quot;</span>
+                <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#3F51B5&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Website&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView2&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;30px&quot;</span>
+                <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Indeed.&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#03A9F4&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+                <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;Button</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/button3&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;100dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;10px&quot;</span>
+                <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;100dp&quot;</span>
+                <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#03A9F4&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Website&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView3&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;30px&quot;</span>
+                <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Glassdoor&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#4CAF50&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+                <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;Button</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/button4&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;100dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;10px&quot;</span>
+                <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;100dp&quot;</span>
+                <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#4CAF50&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Website&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView4&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;30px&quot;</span>
+                <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;HackerRank&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#8BC34A&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+                <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;Button</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/button5&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;100dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;10px&quot;</span>
+                <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;100dp&quot;</span>
+                <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#8BC34A&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Website&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView5&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;30px&quot;</span>
+                <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;careerbuilder&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#673AB7&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+                <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;Button</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/button6&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;100dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;10px&quot;</span>
+                <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;100dp&quot;</span>
+                <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#673AB7&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Website&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;ScrollView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;LinearLayout</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                    <span class="s0">&lt;TextView</span>
+                        <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView10&quot;</span>
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;20px&quot;</span>
+                        <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                        <span class="s1">android:text</span><span class="s2">=&quot;Videos&quot;</span>
+                        <span class="s1">android:textSize</span><span class="s2">=&quot;32sp&quot;</span>
+                        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+
+                    <span class="s0">&lt;TextView</span>
+                        <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView6&quot;</span>
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;30px&quot;</span>
+                        <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                        <span class="s1">android:text</span><span class="s2">=&quot;How to Ace Your Job Interview Over Zoom | Fobes&quot;</span>
+                        <span class="s1">android:textSize</span><span class="s2">=&quot;16sp&quot;</span>
+                        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+                    <span class="s0">&lt;Button</span>
+                        <span class="s1">android:id</span><span class="s2">=&quot;@+id/button7&quot;</span>
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;30dp&quot;</span>
+                        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;10px&quot;</span>
+                        <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;30dp&quot;</span>
+                        <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#E91E1E&quot;</span>
+                        <span class="s1">android:text</span><span class="s2">=&quot;Youtube&quot; </span><span class="s0">/&gt;</span>
+
+                    <span class="s0">&lt;TextView</span>
+                        <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView7&quot;</span>
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;30px&quot;</span>
+                        <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                        <span class="s1">android:text</span><span class="s2">=&quot;Create Your Resume for Google: Tips and Advice&quot;</span>
+                        <span class="s1">android:textSize</span><span class="s2">=&quot;16sp&quot;</span>
+                        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+                    <span class="s0">&lt;Button</span>
+                        <span class="s1">android:id</span><span class="s2">=&quot;@+id/button8&quot;</span>
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;30dp&quot;</span>
+                        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;10px&quot;</span>
+                        <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;30dp&quot;</span>
+                        <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#E91E1E&quot;</span>
+                        <span class="s1">android:text</span><span class="s2">=&quot;Youtube&quot; </span><span class="s0">/&gt;</span>
+
+                    <span class="s0">&lt;TextView</span>
+                        <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView8&quot;</span>
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;30px&quot;</span>
+                        <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                        <span class="s1">android:text</span><span class="s2">=&quot;Top Interview Tips: Common Questions \n Body Language and More&quot;</span>
+                        <span class="s1">android:textSize</span><span class="s2">=&quot;16sp&quot;</span>
+                        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot;</span><span class="s0">/&gt;</span>
+
+                    <span class="s0">&lt;Button</span>
+                        <span class="s1">android:id</span><span class="s2">=&quot;@+id/button9&quot;</span>
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;30dp&quot;</span>
+                        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;10px&quot;</span>
+                        <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;30dp&quot;</span>
+                        <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#E91E1E&quot;</span>
+                        <span class="s1">android:text</span><span class="s2">=&quot;Youtube&quot; </span><span class="s0">/&gt;</span>
+
+                    <span class="s0">&lt;TextView</span>
+                        <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView9&quot;</span>
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;30px&quot;</span>
+                        <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+                        <span class="s1">android:text</span><span class="s2">=&quot;Tell Me About Yourself \n A Good Answer To This Interview Question&quot;</span>
+                        <span class="s1">android:textSize</span><span class="s2">=&quot;16sp&quot;</span>
+                        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+                    <span class="s0">&lt;Button</span>
+                        <span class="s1">android:id</span><span class="s2">=&quot;@+id/button10&quot;</span>
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;30dp&quot;</span>
+                        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;10px&quot;</span>
+                        <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;30dp&quot;</span>
+                        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;30px&quot;</span>
+                        <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#E91E1E&quot;</span>
+                        <span class="s1">android:text</span><span class="s2">=&quot;Youtube&quot; </span><span class="s0">/&gt;</span>
+                <span class="s0">&lt;/LinearLayout&gt;</span>
+            <span class="s0">&lt;/ScrollView&gt;</span>
+
+        <span class="s0">&lt;/LinearLayout&gt;</span>
+    <span class="s0">&lt;/ScrollView&gt;</span>
+<span class="s0">&lt;/RelativeLayout&gt;</span></pre>
+</body>
+</html>
