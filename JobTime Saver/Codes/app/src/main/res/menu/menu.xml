@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/coverletter"
+        android:title="Cover Letter"
+        android:icon="@drawable/coverletter"
+        />
+    <item
+        android:id="@+id/elecsignature"
+        android:title="E-Signature"
+        android:icon="@drawable/elecsign"
+    />
+    <item
+        android:id="@+id/usefulinfo"
+        android:title="Useful Info"
+        android:icon="@drawable/info"
+        />
+    <item
+        android:id="@+id/tips"
+        android:title="Interview"
+        android:icon="@drawable/tip"/>
+</menu>
