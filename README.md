@@ -18,4 +18,4 @@
 * Swift
 * Figma
 
-![](https://t4.ftcdn.net/jpg/04/04/21/61/360_F_404216128_AzxvFH2p321asyRWiGfH9G7XmqLb8zl8.jpg)
+![](https://www.logosglobaltech.com/wp-content/uploads/2020/09/Item-9_iStock-880805262-1024x576.jpg)
