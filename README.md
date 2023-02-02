@@ -1,5 +1,5 @@
 ![](https://placehold.it/950x90/FF4500/fff?text=Welcome!)
-# Mobile Application Development
+# Application Development
 
 ## Contributer Information
 <!-- Tables -->
