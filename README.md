@@ -1,5 +1,5 @@
 ![](https://placehold.it/950x90/FF4500/fff?text=Welcome!)
-# Application Development **Projects**
+# Application Development
 
 ## Contributer Information
 <!-- Tables -->
