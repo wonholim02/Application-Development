@@ -13,6 +13,7 @@
 
 ## Programming Languages
 * Java
+* JavaFX
 * XML
 * Swift
 * Figma
