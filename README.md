@@ -15,8 +15,8 @@
 * Java
 * JavaFX
 * XML
+* HTML
 * Swift
-* Figma
 
 ## Directoriees
 * JobTimeSaver (2022)
