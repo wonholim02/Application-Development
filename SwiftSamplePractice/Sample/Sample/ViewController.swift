@@ -22,9 +22,24 @@ class ViewController: UIViewController {
         view.addSubview(imageView)
         imageView.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
         imageView.center = view.center
+        view.addSubview(button)
         getRandomPhoto()
         // Do any additional setup after loading the view.
     }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        button.frame = CGRect(x:30, y:view.frame.size.height - 150 - view.safeAreaInsets.bottom, width: view.frame.size.width - 60, height:55)
+    }
+    
+    private let button: UIButton = {
+        let button = UIButton()
+        button.backgroundColor = .white
+        button.setTitle("Random Photo Generation", for: .normal)
+        button.setTitleColor(.black, for: .normal)
+        return button
+    }()
+    
     func getRandomPhoto() {
         let urlString = "https://source.unsplash.com/random/600x600"
         let url = URL(string: urlString)!
