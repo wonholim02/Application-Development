@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/fullscreenBackgroundColor"
+    android:theme="@style/ThemeOverlay.MyApplication.FullscreenContainer"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#CDE990"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:id="@+id/top_bar"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+            <TextView
+                android:id="@+id/nameDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textColor="#3C6255"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/difficultyDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="#3C6255"
+                android:layout_marginEnd="40dp"
+                android:text="Difficulty:" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+    <com.g55.myapplication.GameView
+        android:id="@+id/game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+    <ImageView
+        android:id="@+id/spriteDisplay"
+        android:layout_width="96px"
+        android:layout_height="96px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="65dp"
+        tools:srcCompat="@tools:sample/avatars" />
+<!--    These are test sprites below-->
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/test"/>
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:src="@drawable/crab_1"
+        android:id="@+id/test2"/>
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:src="@drawable/shell_1"
+        android:id="@+id/test3"/>
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:src="@drawable/shell_1"
+        android:id="@+id/test12"/>
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:src="@drawable/crab_1"
+        android:id="@+id/test13"/>
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/test22"/>
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:src="@drawable/crab_1"
+        android:id="@+id/test23"/>
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:src="@drawable/shell_1"
+        android:id="@+id/test32"/>
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/test33"/>
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:src="@drawable/sharkfin"
+        android:id="@+id/test44"/>
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:src="@drawable/sharkfin"
+        android:id="@+id/test55"/>
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:src="@drawable/sharkfin"
+        android:id="@+id/test66"/>
+<!--    End of test sprites-->
+
+<!--    Log Sprites-->
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log1"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log2"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log3"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log4"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log5"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log6"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log7"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log8"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log9"/><ImageView
+    android:layout_width="288px"
+    android:layout_height="96px"
+    android:src="@drawable/snake_1"
+    android:id="@+id/log10"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log11"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log12"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log13"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log14"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log15"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log16"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log17"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log18"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log19"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log20"/>
+    <ImageView
+        android:layout_width="288px"
+        android:layout_height="96px"
+        android:src="@drawable/snake_1"
+        android:id="@+id/log21"/>
+
+
+<!--    End of Log Sprites-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#CDE990"
+        android:layout_alignParentBottom="true">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/red_heart" />
+                <TextView
+                    android:id="@+id/livesDisplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3C6255"
+                    android:textSize="30dp"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/star" />
+                <TextView
+                    android:id="@+id/scoreDisplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3C6255"
+                    android:textSize="30dp"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/returnMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:text="QUIT"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spriteDisplay" />
+    </LinearLayout>
+
+</RelativeLayout>

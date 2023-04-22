@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="#C2B280"
+    tools:context=".InstructionsActivity">
+
+    <ImageView
+        android:id="@+id/instrTurtle"
+        android:layout_width="1700px"
+        android:layout_height="900px"
+        android:paddingBottom="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/instructionIntro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/turtle"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <TextView
+        android:id="@+id/instructionIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSTRUCTIONS"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instrTurtle" />
+
+    <TextView
+        android:id="@+id/instructionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="\n Try not to die \n 1. Avoid predators on the beach \n\n 2. Do not fall into the ocean (Hint: Use the logs!) \n 3. Make it to the final destination \n\n a. Make sure you fill out the preference form \n b. You can move your turtle by swiping the screen \n c.Reset the game whenever you want! \n"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instructionIntro" />
+
+
+    <Button
+        android:id="@+id/returnToMainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center"
+        android:text="RETURN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instructionText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
